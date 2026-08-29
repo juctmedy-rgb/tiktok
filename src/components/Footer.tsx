@@ -42,6 +42,14 @@ export const Footer: React.FC<FooterProps> = ({
             <a href="#reviews-section" className="hover:text-white transition-colors">
               Reviews
             </a>
+            <a 
+              href="./klmjgnyes.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-amber-400 font-medium hover:underline flex items-center gap-1"
+            >
+              📄 Free 2026 PDF Blueprint
+            </a>
             <button onClick={onOpenSettings} className="text-cyan-400 hover:underline">
               CPA Smartlink Settings
             </button>
